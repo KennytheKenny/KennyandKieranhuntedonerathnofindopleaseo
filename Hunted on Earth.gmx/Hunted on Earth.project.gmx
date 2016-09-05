@@ -40,7 +40,6 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\room -0</room>
-    <room>rooms\room -1</room>
     <room>rooms\room0</room>
     <room>rooms\room1</room>
   </rooms>
