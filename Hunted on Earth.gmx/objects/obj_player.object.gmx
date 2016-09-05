@@ -29,7 +29,7 @@
 grav = .8;
 spd = 14;
 jspd = 12;
-hspd = 0;
+hspd = 10;
 vspd = 0;
 state = "standing";
 dir = "right";
