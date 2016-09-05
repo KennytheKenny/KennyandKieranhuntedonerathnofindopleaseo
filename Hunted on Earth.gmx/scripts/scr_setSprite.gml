@@ -40,7 +40,7 @@ if (!jumping && !falling)
 switch (dir)
 {
     case "left":
-         image_xscale = 1;
+         image_xscale = -1;
     break;
     
     
