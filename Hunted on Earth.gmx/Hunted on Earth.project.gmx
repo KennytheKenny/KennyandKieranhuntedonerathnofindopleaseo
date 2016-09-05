@@ -7,6 +7,7 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\sprite0</sprite>
+    <sprite>sprites\spr_arrow</sprite>
     <sprite>sprites\sprite1</sprite>
     <sprite>sprites\Walking</sprite>
     <sprite>sprites\Climb_</sprite>
@@ -18,6 +19,7 @@
   <backgrounds name="background"/>
   <paths name="paths"/>
   <scripts name="scripts">
+    <script>scripts\scr_menu.gml</script>
     <script>scripts\scr_detectKey.gml</script>
     <script>scripts\scr_groundCheck.gml</script>
     <script>scripts\scr_jumpCheck.gml</script>
@@ -27,12 +29,18 @@
     <script>scripts\scr_standCheck.gml</script>
     <script>scripts\scr_setSprite.gml</script>
   </scripts>
+  <fonts name="fonts">
+    <font>fonts\fnt_options</font>
+  </fonts>
   <objects name="objects">
+    <object>objects\obj_menu</object>
     <object>objects\obj_player</object>
     <object>objects\obj_block</object>
     <object>objects\obj_gui</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\room -0</room>
+    <room>rooms\room -1</room>
     <room>rooms\room0</room>
     <room>rooms\room1</room>
   </rooms>
