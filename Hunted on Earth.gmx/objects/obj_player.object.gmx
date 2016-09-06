@@ -79,6 +79,8 @@ scr_collisionCheck();
 scr_standCheck();
 
 scr_setSprite();
+
+scr_slidingmech();
 </string>
           </argument>
         </arguments>
