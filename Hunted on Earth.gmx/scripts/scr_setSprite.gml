@@ -34,6 +34,7 @@ if (!jumping && !falling)
             sprite_index = duck
             image_index = 1;
         break;
+    }
 }
 
 switch (dir)
@@ -46,4 +47,4 @@ switch (dir)
     case "right":
           image_xscale = 1;
     break;
-}}
+}
