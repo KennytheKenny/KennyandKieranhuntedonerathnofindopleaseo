@@ -35,7 +35,7 @@ state = "standing";
 dir = "right";
 jumping = false;
 falling = false;
-fric = 1.5;
+fric = 1.3;
 walkingAcc = 0.2;
 walkingMaxSpd = spd/3;
 runningAcc = 0.5;
@@ -79,6 +79,8 @@ scr_collisionCheck();
 scr_standCheck();
 
 scr_setSprite();
+
+scr_slideCheck();
 </string>
           </argument>
         </arguments>

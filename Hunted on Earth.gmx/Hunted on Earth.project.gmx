@@ -28,6 +28,7 @@
     <script>scripts\scr_collisionCheck.gml</script>
     <script>scripts\scr_standCheck.gml</script>
     <script>scripts\scr_setSprite.gml</script>
+    <script>scripts\scr_slideCheck.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_options</font>
