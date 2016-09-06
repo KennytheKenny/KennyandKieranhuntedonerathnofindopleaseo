@@ -9,7 +9,6 @@ if ((!leftKey && !rightKey) || (leftKey && rightKey)) && (!jumping && !falling)
         {
             state = "standing";
             }
-            if ((!jumping && !falling))
             
             //let's slow down our movement when no keys are being pressed
            if (dir == "left")

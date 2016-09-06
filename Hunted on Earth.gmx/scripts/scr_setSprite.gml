@@ -31,10 +31,11 @@ if (!jumping && !falling)
         break;
         
         case "ducking":
-            sprite_index = duck;
+            sprite_index = duck
             image_index = 1;
         break;
-        
+}
+
 switch (dir)
 {
     case "left":
@@ -45,6 +46,4 @@ switch (dir)
     case "right":
           image_xscale = 1;
     break;
-        }
-    }
-}
+}}
