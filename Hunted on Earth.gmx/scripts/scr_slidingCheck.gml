@@ -1,0 +1,4 @@
+     if (slideKey)
+    {
+        state = "sliding"
+    }
